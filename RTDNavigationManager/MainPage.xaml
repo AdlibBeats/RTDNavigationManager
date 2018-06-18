@@ -5,10 +5,16 @@
     xmlns:local="using:RTDNavigationManager"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:RTDNavigationManager.UI.Controls"
+    xmlns:views="using:RTDNavigationManager.Views"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <controls:FloppyFrame>
+            <controls:FloppyFrame.Content>
+                <views:Page1/>
+            </controls:FloppyFrame.Content>
+        </controls:FloppyFrame>
     </Grid>
 </Page>
